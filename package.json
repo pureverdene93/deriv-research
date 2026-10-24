@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "fetch": "bun src/scripts/fetch-history.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
