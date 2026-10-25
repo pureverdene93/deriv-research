@@ -7,3 +7,6 @@ export const DEMO_WS_URL = `wss://api.derivws.com/trading/v1/options/ws/demo?otp
 export const REAL_WS_URL = `wss://api.derivws.com/trading/v1/options/ws/real?otp=YOUR_OTP`;
 
 export const BASE_API_URL = "https://api.derivws.com";
+
+//symbols
+export const BOOM_1000 = "BOOM1000";
