@@ -11,14 +11,14 @@ export type CandleRow = Candle & {
   timeframe: number;
 };
 
-export type echo_req = {
+export type EchoReq = {
   ticks_history: string;
   granularity: number;
 };
 
 export type DataHistoryType = {
   candles: Candle[];
-  echo_req: echo_req;
+  echo_req: EchoReq;
   msg_type: string;
   pip_size: number;
 };

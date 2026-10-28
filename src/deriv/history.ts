@@ -6,11 +6,9 @@ export const fetchCandles = (): Promise<DataHistoryType> =>
     const ws = new WebSocket(PUBLIC_WS_URL);
     const parameters = {
       ticks_history: BOOM_1000,
-      adjust_start_time: 1,
-      count: 2,
       end: "latest",
       granularity: 60,
-      start: 1,
+      start: 30,
       style: "candles",
     };
     ws.onopen = () => {
